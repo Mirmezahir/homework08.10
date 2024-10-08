@@ -6,6 +6,7 @@ namespace Task_10._08._2024
     {
         static void Main(string[] args)
         {
+ //Muellim kecdiklerimiznen max bu mentiqnen ede bildim normal cumleler de bir bosluq oldugun nezere alaraq )
            string word = Convert.ToString(Console.ReadLine());
            basherfler(word);
         }
