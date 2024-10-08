@@ -1,0 +1,30 @@
+using System.Diagnostics;
+
+namespace Task_10._08._2024
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+           string word = Convert.ToString(Console.ReadLine());
+           basherfler(word);
+        }
+        static void basherfler(string word )
+        {
+            Console.Write(" "+word[0]);    
+            for (int i = 0; i < word.Length-1; i++)
+            {
+                if (word[i] == ' ')
+                {
+                    i++;
+
+                    Console.WriteLine(" "+word[i]);
+                }
+                
+              
+            }
+        }
+    }
+        
+    
+}
